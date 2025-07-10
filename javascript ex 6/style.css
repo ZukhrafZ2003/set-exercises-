@@ -1,0 +1,85 @@
+ /* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body styling */
+  body {
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #f0f0f0, #d3e3fc);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Calculator box styling */
+  .calculator-container {
+    background-color: #ffffff;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+  }
+  
+  /* Heading */
+  .calculator-container h1 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: #333;
+  }
+  
+  /* Labels and inputs */
+  .calculator-container label {
+    display: block;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    color: #444;
+    text-align: left;
+  }
+  
+  /* Input styling */
+  .calculator-container input {
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: 2px solid #ccc;
+    border-radius: 6px;
+    transition: border-color 0.3s;
+  }
+  
+  /* Input focus style */
+  .calculator-container input:focus {
+    border-color: #0077cc;
+    outline: none;
+  }
+  
+  /* Button styling */
+  .calculator-container button {
+    margin-top: 1.5rem;
+    padding: 0.7rem 1.5rem;
+    font-size: 1rem;
+    background-color: #0077cc;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  /* Button hover effect */
+  .calculator-container button:hover {
+    background-color: #005fa3;
+  }
+  
+  /* Result output */
+  #total {
+    margin-top: 1.5rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #222;
+  }
+  
