@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Video Demo</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body, html {
+      height: 100%;
+      font-family: Arial, sans-serif;
+    }
+
+    .video-container {
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #f2f2f2;
+    }
+
+    video {
+      max-width: 80%;
+      max-height: 80%;
+      border: 2px solid #ccc;
+      border-radius: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div class="video-container">
+    <video controls loop poster="https://www.shutterstock.com/shutterstock/photos/2139630095/display_1500/stock-photo-emoji-pattern-crafted-from-neon-lights-technology-and-entertainment-2139630095.jpg">
+      <source src="https://www.shutterstock.com/shutterstock/videos/3578631785/preview/stock-footage-top-animated-emoji-set-alpha-channel-transparent-background-k-resolution-loop-animation-pack.webm" type="video/mp4" />
+      Your browser does not support the video tag.
+    </video>
+  </div>
+</body>
+</html>
